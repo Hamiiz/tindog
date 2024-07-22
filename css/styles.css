@@ -1,0 +1,145 @@
+#title{
+    background-color: #ff4c68;
+}
+h1{
+    font-family: montserrat-Bold,Verdana, Geneva, Tahoma, sans-serif    ;
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+#navs{
+    padding: 3% 15% 4.5rem 0;
+    
+
+}
+
+.navbar-brand{
+    color: beige;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.btnss{
+    margin:5% 3% 0 5%;
+}
+.title-img{
+    width:25%;
+    transform: rotate(25deg);
+    margin: 50px;
+    position: absolute;
+    top: 200px;
+    right: 200px;
+    
+
+}
+.feat{
+    margin: 2.5rem;
+}
+.tick,.bullseye,.hrt{
+    color: #ef8172;
+    font-size: 4.5rem;
+    position: relative;
+    
+
+}
+.testimonial-text{
+    color: white;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 3rem;
+   line-height: 1.5; 
+}
+.ft{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+.col{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.tick:hover,.bullseye:hover,.hrt:hover{
+    color: #ff4c68;
+}
+#features{
+    padding: 7% 15%;
+}
+#testimonials{
+    
+    text-align: center;
+    background-color:  #ef8172;
+    
+}
+.testimonial-image{
+    border-radius: 100%;
+    width:10%;
+    margin: 20px ;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-img{
+    width: 12%;
+    margin: 20px 20px 50px ;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#pricing{
+    padding: 7% 15%;
+    
+}
+.card{
+    padding-top: 0px;
+    text-align: center;
+}
+.pr-colum{
+    padding:0px 2% 3%;
+}
+#features{
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+    
+}
+#cta > h3{
+    font-family: montserrat;
+    padding: 20px;
+    font-size: 2.5rem;
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+#logos> span{
+    padding-right: 10px;
+}
+
+@media (max-width:1120px) {
+#title{
+    text-align: center;
+}
+.title-img{
+    position: static;
+    width: 60%;
+    transform: rotate(0);
+}
+    
+}
